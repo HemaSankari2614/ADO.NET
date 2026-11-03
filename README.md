@@ -1,57 +1,60 @@
-🎓 WPF ADO.NET Student Management System
-A desktop-based Student Management System developed using C#, WPF, ADO.NET, and Azure SQL Database as a hands-on database programming practice project.
+# 💻 C# ADO.NET
 
-The application provides a simple interface to manage student records and practice database CRUD operations using SQL queries and parameterized commands.
+## 📌 About This Repository
 
-Technologies Used
-C# — Application logic
-WPF (XAML) — Desktop user interface
-ADO.NET — Database connectivity and data access
-Microsoft.Data.SqlClient — SQL Server connectivity
-Azure SQL Database — Cloud database
-Features
-Add Student: Insert student details into the database.
-Read Student: Retrieve student details using Student ID.
-Update Student: Modify existing student information.
-Delete Student: Delete a student record using Student ID.
-Clear Form: Clear the input fields.
-Parameterized Queries: Use SQL parameters to pass user inputs to database commands.
-Student Information
-The application form contains the following fields:
+This repository contains my learning and practice programs related to **ADO.NET** using C#.
 
-Student ID
-Full Name
-Email Address
-Department
-Age
-Phone Number
-Database Operations
-The project demonstrates the following SQL operations:
+ADO.NET is a data access technology in .NET used to connect applications with databases, execute SQL queries, and perform database operations.
 
-Operation	SQL Command
-Create	INSERT INTO
-Read	SELECT
-Update	UPDATE
-Delete	DELETE
-Database Configuration
-The application connects to an Azure SQL Database using Microsoft.Data.SqlClient.
+## 🎯 Learning Objectives
 
-Before running the application:
+- Understand ADO.NET architecture
+- Connect C# applications with SQL Server
+- Execute SQL queries using C#
+- Perform CRUD operations
+- Retrieve and manipulate database records
+- Handle database connections and exceptions
 
-Create an Azure SQL Database or use an existing SQL Server database.
-Create a Students table with columns matching the application fields.
-Configure the database connection string securely.
-Ensure the database firewall allows connections from your development environment.
-Run the WPF application.
-Security Note: Never commit database passwords, credentials, or connection strings containing secrets to a public repository. Store sensitive configuration separately from source code.
+## 🛠️ Technologies Used
 
-Learning Objectives
-Understanding ADO.NET database connectivity.
-Opening and closing SQL connections.
-Executing SQL commands with SqlCommand.
-Reading query results with SqlDataReader.
-Using parameterized SQL queries.
-Performing CRUD operations with SQL Server.
-Connecting a WPF desktop application to Azure SQL Database.
-Project Status
-Developed as a hands-on practice project to improve C#, WPF, ADO.NET, and SQL database programming skills.
+- C#
+- ADO.NET
+- .NET
+- SQL Server
+- Visual Studio
+
+## 📚 Concepts Covered
+
+- SqlConnection
+- SqlCommand
+- SqlDataReader
+- SqlDataAdapter
+- DataSet
+- DataTable
+- ExecuteNonQuery()
+- ExecuteReader()
+- ExecuteScalar()
+- CRUD Operations
+- Parameterized Queries
+- SQL Server Database Connectivity
+
+## 🔄 CRUD Operations
+
+| Operation | Description |
+|---|---|
+| Create | Insert new records |
+| Read | Retrieve records |
+| Update | Modify existing records |
+| Delete | Remove records |
+
+## 🚀 Purpose
+
+The purpose of this repository is to understand database connectivity in C# and gain practical experience working with SQL Server using ADO.NET.
+
+---
+
+<div align="center">
+
+✨ **Connecting C# applications with databases using ADO.NET!** ✨
+
+</div>
